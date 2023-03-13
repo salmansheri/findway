@@ -1,7 +1,7 @@
 import Home from "./Home";
 import Login from "./Login";
 import Register from "./Register";
-import Favorites from "./Favorites";
+// import Favorites from "./Favorites";
 import Ecepage from "./Ecepage";
 import Courses from "./Courses";
 import Eeepage from "./Eeepage";
@@ -13,12 +13,12 @@ import Agripage from "./Agripage";
 import Aepage from "./Aepage";
 import Bcepage from "./Bcepage";
 import Videopage from "./Videopage";
-
+import Mcopage from "./Mcopage";
 export {
   Home,
   Login,
   Register,
-  Favorites,
+ 
   Ecepage,
   Courses,
   Eeepage,
@@ -30,4 +30,5 @@ export {
   Aepage,
   Bcepage,
   Videopage,
+  Mcopage,
 };

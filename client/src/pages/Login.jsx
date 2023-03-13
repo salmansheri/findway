@@ -1,13 +1,22 @@
 import React, { useState } from "react";
-
+import axios from 'axios'; 
 const Login = () => {
   const [loginData, setLoginData] = useState({
     email: "",
     password: "",
   });
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    window.location="/";
+    const res = await axios.post("http://localhost:5000/api/v1/users/login", {
+      email: loginData.email, 
+      password: loginData.password, 
+    }); 
+    if(res.data.message === "success") {
+      window.location= "/home"; 
+    } else {
+      alert("User Not found Please register to continue")
+    }
+    
   };
   return (
     <div className="flex h-screen justify-center items-center">

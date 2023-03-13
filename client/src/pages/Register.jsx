@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react'; 
+import axios from 'axios'
 
 const Register = () => {
     const [registerData, setRegisterData] = useState({
@@ -10,7 +11,24 @@ const Register = () => {
     })
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(registerData)
+        const postData = async () => {
+            const data = await axios.post("http://localhost:5000/api/v1/users/register", {
+                username: registerData.username, 
+                email: registerData.email, 
+                password: registerData.password, 
+                dateofbirth: registerData.dateofbirth,
+
+            }); 
+
+            return data;
+        }
+
+        try {
+            postData(); 
+            alert("create successfully"); 
+        } catch(err) {
+            alert("something went wrong")
+        }
     }
   return (
     <div className="flex h-screen justify-center items-center">

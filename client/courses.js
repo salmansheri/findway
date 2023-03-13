@@ -420,42 +420,42 @@ export const mcocourses = [
         name: "Mechanics and Materials", 
         img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
         desc: "This involves the study of the motion of air and the interaction between air and solid bodies, such as wings and fuselages. Aeronautical engineers use aerodynamics to design aircraft that are efficient, stable, and safe.",
-        link:"aerodynamics"   
+        link:"mechanicsandmaterials"   
 
     }, 
     {
         name: "Electrical and Electronic Circuits", 
         img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
         desc: " This involves the study of materials used in aerospace applications, such as metals, composites, and polymers. Aeronautical engineers select materials that are lightweight, durable, and capable of withstanding high stress and temperature conditions.", 
-        link:"aerospacematerials"   
+        link:"electricalandelectroniccircuits"   
 
     }, 
     {
         name: "Control Systems", 
         img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
         desc: "This involves the study of the design and construction of aircraft structures, such as wings, fuselages, and landing gear. Aeronautical engineers design structures that are strong, lightweight, and aerodynamically efficient.",
-        link:"aircraftstructures"    
+        link:"controlsystems"    
 
     }, 
     {
         name: "Robotics and Automation", 
         img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
         desc: "This involves the study of aircraft engines and propulsion systems, such as turbojets, turboprops, and rockets. Aeronautical engineers design and develop propulsion systems that are efficient, reliable, and capable of providing sufficient thrust to propel the aircraft.", 
-        link:"aircraftpropulsion"      
+        link:"roboticsandautomation"      
 
     }, 
     {
         name: "Computer Programming and Software Development", 
         img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
         desc: "This involves the study of the engineering principles and technologies used in the production of biofuels, such as ethanol and biodiesel, and the use of renewable resources in agriculture, such as solar energy and wind energy.",
-        link:"flightmechanics"    
+        link:"computerprogramming"    
 
     }, 
     {
         name: "Sensor and Actuator Design", 
         img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
         desc: "This involves the study of the motion of aircraft and the forces that act on them during flight. Aeronautical engineers use flight mechanics to design aircraft that are stable, maneuverable, and safe to fly.",
-        link: "avionicsandcontrolsystems"         
+        link: "sensorandactuatorDesign"         
 
     }, 
     
@@ -469,7 +469,7 @@ export const vlsiCourses = [
         id : 1, 
         img: "/img/logical.png", 
         title: "Evolution of logical complexity in VLSI", 
-        desc: "VLSI (Very Large Scale Integration) design system refers to the set of tools and", 
+        desc: "In this video, i have explained Evolution of Logic Complexity in Integrated Circuit for Information Technology Services with following timecodes: ", 
         link: "logicalcomplexity"
 
     }, 
@@ -477,29 +477,32 @@ export const vlsiCourses = [
         id : 2, 
         img: "/img/designmethodologies .png", 
         title: "VLSI Design Methodologies", 
-        desc: "VLSI (Very Large Scale Integration) design system refers to the set of tools and", 
+        desc: "In this video, i have explained VLSI design Methodologies with following timecodes: ", 
         link: "designmethodologies"
 
     }, 
     {
         id : 3, 
         title: "Semi Custom design", 
-        desc: "VLSI (Very Large Scale Integration) design system refers to the set of tools and", 
+        img: "/img/semicustom.png",
+        desc: "In this video, i have explained Comparison of Full Custom design and Semi Custom design with following timecodes: ", 
         link: "semicustomdesign"
 
     }, 
     {
         id : 4, 
         title: "Hierarchy, Regularity and Locality", 
-        desc: "VLSI (Very Large Scale Integration) design system refers to the set of tools and", 
+        img: "/img/hierarchy.png",
+        desc: "In this video, i have explained Terms of VLSI with following timecodes: ", 
         link: "hierarchylocality"
 
     }, 
     {
         id : 5, 
         title: "VLSI Design Flow", 
-        desc: "VLSI (Very Large Scale Integration) design system refers to the set of tools and", 
-        link: "hierarchylocality"
+        img: "/img/designflow.png",
+        desc: "In this video, i have explained Comparison of VLSI design flow with following timecodes", 
+        link: "designflow"
 
     }, 
 ]
@@ -523,23 +526,26 @@ export const edeCourses = [
     }, 
     {
         id : 3, 
+        img: "",
         title: "Closed and Open Circuts", 
         desc: "We learn about closed and open circuits, and batteries! *taken from this series should be checked with multiple sources, and a professional should be addressed to ensure proper safety", 
-        link: "semicustomdesign"
+        link: "closedandopencircuits"
 
     }, 
     {
         id : 4, 
         title: "Flow and Resistance", 
-        desc: "VLSI (Very Large Scale Integration) design system refers to the set of tools and", 
-        link: "hierarchylocality"
+        img: "",
+        desc: "We talk about some traits of electricity, such as voltage, current, and resistance.", 
+        link: "flowandresistance"
 
     }, 
     {
         id : 5, 
+        img: "",
         title: "LEDs", 
-        desc: "VLSI (Very Large Scale Integration) design system refers to the set of tools and", 
-        link: "hierarchylocality"
+        desc: "We learn about LED's and how they work!", 
+        link: "leds"
 
     }, 
 ]

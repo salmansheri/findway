@@ -1,25 +1,48 @@
 import React, { useState } from "react";
 import axios from 'axios'; 
+import { useDispatch, useSelector } from "react-redux";
+import { LoggedUser } from "../redux/userSlice";
+import Navbar from "../components/Navbar";
+import { useNavigate } from "react-router-dom";
 const Login = () => {
   const [loginData, setLoginData] = useState({
     email: "",
     password: "",
   });
+
+  const [email, setEmail] = useState("");
+
+  const dispatch = useDispatch(); 
+  const name = useSelector(state => state.name)
+ 
+  const navigate = useNavigate(); 
+   
   const handleSubmit = async (e) => {
     e.preventDefault();
     const res = await axios.post("http://localhost:5000/api/v1/users/login", {
       email: loginData.email, 
       password: loginData.password, 
     }); 
-    if(res.data.message === "success") {
-      window.location= "/home"; 
-    } else {
-      alert("User Not found Please register to continue")
+    const data = await res.data;
+    setEmail(data.email)
+   
+
+    if(data) {
+      dispatch(LoggedUser({email: email}))
+      navigate("/"); 
+    } 
+    if(data.message) {
+      alert(data.message); 
     }
+
+
+    
     
   };
   return (
-    <div className="flex h-screen justify-center items-center">
+    <>
+    
+     <div className="flex h-screen justify-center items-center">
       <div className="bg-white flex flex-col gap-5 items-center p-10 rounded-lg shadow-lg">
       <div>
         <img src="/logo/logoblack.png" className="w-[150px]" />
@@ -56,6 +79,9 @@ const Login = () => {
     
       </div>
     </div>
+
+    </>
+   
   );
 };
 

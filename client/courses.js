@@ -72,7 +72,7 @@ export const eeecourses = [
         name: "Electromagnetics", 
         img: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTEBIVFhUWFRUVFRUVGBUWEhITFRUWFhUSFRcYHSggGBolHRUVITEhJSkrLi4uFx80OTQtOCgtLi4BCgoKDg0OGxAQGy0lHyUvLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALIBHAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAACAwABBAUGB//EAEYQAAIBAgMEBgcECQMBCQAAAAECAAMRBBIhIjFBUQUTMkJS8AZhcXKBkaEjM2KxgpKywcLR0uHiBxSiFRYlU1Rjc6Px8v/EABoBAAIDAQEAAAAAAAAAAAAAAAMEAQIFAAb/xAA7EQABAwIDBQQIBAYDAQAAAAABAAIRAyEEEjFBUWFx8BMigcEFMkKRobHR4TNScvEUYnOCssI0Q6KD/9oADAMBAAIRAxEAPwD45h8US25ZMRiGDaflBTEAHRY3FVyDoJ6luIJwjgcQSWuEkA7dkWVNuiMVmyXtrBwlUk6qvyhJVYpe2smEqPrcR1tUur0CHvIyg+rY66nYuhINcFtUGph4uot8pDaS6DPm1T6SE3bVO9viRc51EyZL3R3qcW4xx2lWAUdAFyq1r6w6eZV5nhFOVZrWMMgM1g1rSW1AHl1LZ3GZXEc7G1hdWyq6eXtMLGEitqxOZeIhEMxtYFYAAY6FkA4HdDtqFkAbCY9kudF3OiGOAU5ENs+tytuHCRnvdSLfi5+2XVW/bGnAiU4017H1g3YjW+uuzMIIkjVjdzm6+MKvZlUrW2bX5M3dl/hqG993qlW0/B9YSiw5JwPGUFY79Bt0g2gi0tOge7RTkRpfVdlPCeMAgMtiWJWGEvw1G4t3pebc2ZjwYLujJeCMrtLi+7lYSwwbA93aRrIYgq91sv60i9vcmoPs3SNS0It6xcweIOzuijsQWuBJ2tJ0Fx3T7I5q3ZlAl8p0T5awmGijIDKtpw38owDavs6CCpVs4DSdgGoO2Tv2BdkKsqC25gF/Vlox1bPccA3ikVCBbaBJ97LCKg8ig/WvNBlQ6ixN914tMRZrbmWnZ4VyJJsNpxZju5e2QkgXqbfLmIZ5947kPCBls2nb5HdF3vI08tTtI0c86hpAIHFRkVAWJa5P4ZMpaxvktw/lLVddPvPpLK3OvbHAbpQOBEHSdJNzP5tcw/IFOVEr5rhFsw4kb5SqCMtU3PDxeyGylhcnKRqQO0ZRFxmprc+v84wXT617aEGHN29we0OO349lKrDVNSgWw5+uBTVg222nrjsSpIDFsvOIxKoQGJJ4aQNV7mNubs7wkhgLTwF7cd67IUFWiqNqTzh4spoct7wq7KVDZb8Jbv8AZg5PhBnIBVYzLBGcd0u+YjQ7LqMqnXA07hRpzgYLEXa2Rd1oyjVOQ7PwyysDWJJuoGnKNMquNagc5EgewLxO3Z1ZdCzVsUcx2V+U30qug0G6YmxV2tlXfNVfEhSBbhLejcQHPqPNXMNIyxB9yrCz12VTosaapKXUC8tKisNBcr4pWEqMSQRYS7HDtcrH92oDGRtgd5cNxlVhXhy5Bv8ACTDK9zmMGkpVtt928SWVH3m5+Ulri1tN9QuGRxaczwLHQkCx4AwrAK6FM5tX+ElBTmO3LAAqdlvbCprtn7PnrB02Q5jfy1CPWedk3+9lYBDQzXJuD8pKamxJQfCSmujbEI09AMrb+6YFgdkbrOUm+Y3c6BqwogCrIFFrMC/0jCt9jRrdrN2oYbaJ2tlfhKA0HZJO/hswxYxoygW0jSw4C3edr3dJRGhDb2qBw4GUU4976R35cBvEFR/c92Z1WJ9x++4fy6AASUdrCk5NdO14u7CRP8s38MeB54SFfPe+EHTrN05+/wCu/adqJ/D9eCWKf9i35ZYWX5HZPdUNGgef4ryyP7/1R9pHXLxndeTFpVezss+X+W6Vk3e31R7CV/aJPLQfd18Ar5PNIy/n+GF1f1PIdmN/vLA/KQ0s28fLyld2fklqnEe6tvDIU+IG7uszR48+yWR55R9tQRB626afsOM07JZDT+Pizd31K0Xk0trl/wCc1sv/AOe7APlu9A1K7Ovv8d/8tgo7ApDU9LN2eFu38YeTh2TwPeMZ5I8XrkA4D4cWlG1AT8NxjdNojZEZdtjeOzhKy99F145vzhk69vQ8F3Qge8eOhzScCt921siNNcALb53XiZju+sJnW6qWpdGkLsuRreuDSDZSLKLbo1t6GzxaJq2w3z3yAA0gNFriw2EZho3fx48FUtQgtk7Yv+jaVZ+r7Qvm3yKNg/Znfug1MoQAodYLtYbmcT+Htc/fG6x+PJDITUDimdq5kwxqBWLXPKKr5QoW5EY9OyBVcX36xinULXggnuMGjwZJG46m9p3KqVhqrFtpR8orE4pcx2BNWaoiXOpmQVL69XF69V7KbKRecx7xzNk8Bbd5qhsrZ8hsq/GMr02NmBsP2YKVx2QPiZACv3h0PCEzNcwtDppn8vdbTI3kQTu4j4DARVMpGbeRyhhiVuFAI5+GUmyfsxoeMlSym5LEHgNxjAJ7znWmzy0ADZDw43MWEgKQpWY2Bz2tvyymYZwdrWQLY2yqFPFos8QSxI8OkBW7We960jf6zd0n2m3EC6vmCML2hl+sNR2NPrE31B56G5lof+LcosxsHhyGmYO2gbPkVbtAtA3N73ijWPa7XLhEgftL4Yz+r1Rl9Nwbrv8AhPLaSjU3g7EQOvs0lCUPPxlrunnMXXe0xO5aVFrTs3ploSiUOEIRBtdx29SnhTaOuCu0EmWILrN3CuJHePUJOsBEgJbvEtXg4ic6o5vBYvuXBWc7ElpXT68RqPecemxnQoAzPFV0670ejWL9i3LDtF04+0eFV42p9jARp1KSYthNDCIaZ1Wu8bUQ0wlSXlM0rPL0azyfek3hgTU/Mcu9CHDtai28QEb8/wAxLQ7v0vDPQ0M9vDy+p96WcWwgZNF9vOCR2jY/OMA3fFuzEkae0xeoS0DfA3flAGzeYVbIW7IG0LwmN2AD7t95fG+otJrbgSfnaQx0GNnjo3kRqdIBQyEWrPqAVEVZXYkgi3yywsoGwLgmFUJACgZ77zHAcwPaXEy4Rml2xtgHCOVroZCW6sx+zbSFVx+U2y3txkKgDLTNm86QqdJgNoi/shqZrgns3EON3EHM0fyiSIP0VCEjrAdF7XPxS+yLVdeXqhGooNtzHj+KQ7A29va/VhxTzS4kEiZIuxvB7Abuj670uSrsRfNl6u8tBbsAdXa92l5bZmvmv3Zf9P3cfbTDTuiYm5AJO38pHsDvBQl5OHaG8O3ZEoqfaw8PZKxpH6X4PDIR8u7bcvvSjqANvP8AfTUEyRoQAulIFPlx8O1lMNV5+63H8oy3+QGi+8sMDzzkNwrAbfbr7jcolDl/L1dpY7LKUef3xyjyZNfDiOuP1KZoG6UE/dIEmkCEFnk8XhWF/uW7QBj3rOyxYJmt1iCJfBeiadUST1Kpia72GB1ZFTEYacKks0osLisKyho5HwuaqLhcqvQmF8CSZ6R6QiigmX2zXD3K9f0WC6TxXEpYK3CbqdG3CbxSFpHSLkMcYHFFpYDsxI4LGEhQmgz0mD9GscySZ/ZIVq5aYCpohlmq0AiZuJwdJr45IzXOcJWN6UHqprJijNLBYGlqsrEuMoUT2b/2RLyfl+cIQputoMAhJApVRP8Als8tkb4o8+eyubaHvXmh/P8ATFMfI3j8I5wNai06rsxCAfQcV2gTC9ZFzwy7wIN/8bd38TrLvxvqd9RezEThWD1evLg3YNS6UVtU6FGARou2ePMSkFrikdviDLB/Q/Hzhb7jsHx85DWAEDboN/8AaTo7e58tOwo2qXsg62FT6ZoAo1uYjs4vktd/FFZWXQ1JBDTeCRf1Dlg7nXu7iLIZCUHKi7i54SUtNQ2p3K0pdTcPpyl2uczpu3ZYVmIcYI2WaTfT1nlzeGmYRoErkR5sti4s7coeU+1uLr3YCNvfMddwPZmjDYR3YJTQl21Jp6nT1RynXaRLef3MWzON5IblE3BUZSEi+nMeJe2WlF/Ph/8AcnSboDFHX/bVDbRdhlb3t0wYjA1VDM1NwFbKzkEHP4Sefqgq2Na0WIPI/v4XNrkyQoypXWeefu+GGrzGxMdRitL0mHOg9fNd2bltQxyyqCE2AFz6t8aqxnE46GwOK0cNhSblUu+ORZEGsgqgeTPF43F1C6eS9HhqLGjvcUb04K0owte1oKg3i1LHVgIB6lM1KFIuBif2TKdKGYS7oQEM7F1C6XGb+SZbhmZYbbRKAvANLWaZVt8QOKeLjgjHDNOvFIK2EHjNDSZN9huGu/T2yBiT81DqAm2llmanFmnN1eg6gZlK5hcXBFxzHqmUmbWDxlcCAdvks3EYelrHUpZSKeai2kWqlyFUXJNgBcknkBFMTiKpdmO4KvY0wIHFc6q8ynEaz0FX0exX/l6n6jzmYvoasl89F1yi7XUjKDuJ5RrCekqtMgLBxmHDvVPxH1SUeMBmeks0gT2tCtnZKycpFkLmZmfz/KaKgmKqPPP2xTGYjLooylF1nnl78JW+PNe57YgDzzjUT+1/2bTPp4ok9ffzVg0pqsPfX/ikaSOxUN77rRajjqQdCOysag307geDLvjebO3f8jwN4gjSScroAEWRmAjVEQSMrWTlzilrhdm7aQwLi9iSOcYCTwEXD6j3DI6DFjBdLZ0OjQQdwnemcgWG1luUOstrAAbQvCfsD7Q7/nCdtU2+XxhTSZGvssHse0b6EdaSkgjG8DNu8U9r/o2P+8qZ2bkVOz7pnjA2r7Q+U9d/pVi6dLH0nquiLlqAtuAJWwhcY2aNTb6/zDR7R0HzU7F7LF9GdP53KVhlucv2ibr6fScJqNWr0PiEfarP0gisfFUJy/nFYz0ER3dv+o4Tadm3txJNppweMpYTAPS61Kj0ukKVQBD94qEEsvqmO+mDGQgmRo3LtI+isIWVvQfo9KyYOrjHGKay7KjqUqtupsd+pIHxmTo70GSklat0jValSo1TRApjM9SoDY5b8Nx+M9/X6bqVqwxFLpdKWDYBmp/ZddT01RQyHW/OcEdI0ekcNWwxxWWoMS1anUrkL1yGwGbKAAbKOAiQBA13Trb4BEpgzfx4fCy2+hXo/g6WMR6OI65KmHqPTUhC6HXP1i90gWt8ZyejfRLBPQfFVMS6UFqdWCUXO2gtpzuTOn6OLgcFi6KCuGc0qiV6oN6Od12QOXGYek1p0ejWw4rJUdcSGuh0ZcoOYerX6Sz3Ozam/wArp+iw5wATfLeNkuBO7YEir6MYKhTSrjMQ4FYk0VRQX6sGwquDuiaH+ngbFdUcT9g+HOJo1gBtJp2gd06mNw1HpDD4YjEU6VWhTFJ0qtl2b3zrznRo9NYbrepp1AUoYCphxUOgqubElb8LxdzGkXmeoVqjq5BhxkZpEaQbbP31XJwfolgHonEU8Y/VUmyViyLnJtpkA53ErHeiNHPh2oVwKGIDEVK1ky5e2DeK6HxNNei8TTLgO1ZCq8SAo1Ano+hcfhTS6OWs6MFWtcGxRXJ2C48MRdTaSY6utRrq9CTmcYc4RANgwuB01mIPhBXKX0XwdanV/wBnWql6ALnMoVWC78hHsg0PRnC0adL/AH1dqdWuAUVFDhVbsO9/jPXUOlCq11xONouGpVBSpUsoprceofQkzjdKYOhjkw1V660WpU0R1qAguinR6fivK1GgddckWhiKrjlc5wZIuLn1dJyAwSDPd4TdZm9AaQr1aTYghKdBaxawsQSbj2fznM6S9GsO2GbEYGs7hKgpOGUA5msFYZd+pHznsen8XTp1cUpcC+BRUvoTbh7Z5T0b6TSj0fiQXGfrcO6qd7ZXUmw+EA9rQS2N/wANETD1sTUY2rmJvTEQIOaM024zY2+Ka/olg0ZcNWxDjEsAGyqDSRzuR2mzAdD0aGAxqV2IdKqq7gK2UggqATwOl/bO7iOlmquK1LpNaWGYBmpnIK1PxKAVP1nCwuNo4mnj6P8AuQpqVVdGrWDVFTeTYWzacBylsrQbcY0vbmZSwqYio0dq42NMu3tOcT7DYgSconQHnkx/ozVxD4Sm1a6nCrVYsABRpC9wLb5gr+jWCq0ycHirulRQVrZEL5jbMnFp6ROnMOtTDI9UZHwIoOw16tzftTh/9BwWGVmxGJFViyikKD7Si/aN/Vwj2Gph5N9vjouNWo0AOkW7oDZB7zs0iPfcQLjWUHS/ofg6Zeg2JenXVSc1RFShUYAHKrHf8J84weKenUWpTNmUhlPIjjPuVPpJEDivjaOJwZQ5Uq2qYjs7K3tcm/E3nxauFzHKLLc2B3gX0HyjXZte2Dwv4+BSVDtXl2Yzz0vzAPMbF9H6I9KMU/RGOrtXY1ab0cjaXUNUQMB7QT84n0SxTY3DY446uQOrphqlgWVASbAc5y+hsXTXojG0y4Du9EqpO0wFRCSB8DF+jOLppgcajOAzrTygnVrHW0X7ODqhuw7ezfDYOYaDZ3dErpP0NotRo1+j6zVErVxhstRcrrVIJG7hZT9J0P8AsVgTV/2i4tzi9R2R1PWAX6vNL6E6Yp0Oj8OSQXpdJJWKX2si0Wu1uXCesr9MVGqtXHS6phDthF6rr10+7AZDrfnNalVrNbAdYTHE7BoZtsss6swtJB2Ej48ivB4T0Po0qBxHSNV6aGq1KmlNc1SoyEhm14aHyY1P9OqdTEYYUcQzYbEq7U6uUZ1ZRfIw3XnTxVaj0nhEpHErTr0K1VlNcheupu181wAA27hznQ6K6YwuHrYPBpWVloLWarWv9n1lReyplsQ6o4HMTmvI2ADThsHG8bFV0id9/t5LzVf0HwTriFwWLqVa+Hps5QqArFDZwvGcAejijo4413IZqwp0UAFntq7E79AD8pu9FelOo6TSoLsrVnRgLnPTqMVItx33nS/1RrU6delgqH3WGQi3/qOczE200Fh8JzMO4VQyTe8/Aj4iF1wQ3kevgvBBbn3hxaUX2QbqLGx4xlMdjs/qwb7L6qNrfl3TWazukzs4bg8aEbZ+qkoyRn3nX5TLUsCRYzU1Q7H2n+UViW2j9o31iWMpsM6WP8p9YTtdv60Rm6JABK9gaQnY2BuoiKdgSpJMZTG9cnsvGW1HPAaNSMusw5pkeqBu3jxSCeH29+8cpAdO8LN7sWrG3a1Xgvhh3422W35m7PwjgLngkbZO22bXa6MrhBmIU5gEbnfr+LfKZ/5xZv8AFfDsqViHPL4fyvEsUHj3/X6ke7eiCsAtXWiMp1ZzM8dReZTWvqGIR2YuCuxTqR6vMNJo9WjVai4NmN61MPiJ27k2q8wnEmbQYrqJiVcW6nbkm30X1LtO9Pw1Um02KZkUWtvhLXPrmZnc4kjq61aT+zaA4rYG9ZnqsB6bVEpoj0aNXqxamXXMwHAeueRVoQaWdmkphzKdZoFQT1HPT7rb0n0jUr1Gq1Wu7G5PLkByEy3g5oN4m7emgQ0BosAjZvXKJ1gFtJC2sgBVc/juUJkYwGaKLma+Ea6ZG/ySNaqAL9XUq1d8wdabzcwuJnNO0axGMIY1o1jzWXUouc/NNlQqQWrRdR5lq1Ykyq8uQK1UMETuWwVowVJz6bx4aezweHOSSsR+Mk6p7PM7PKqNMdRzBYxrmiyp/E716L0a9JGwbtUSnTdiNk1BmyNe4ZfXOdjsc9Wo9Wo13a5JN9WbfOWKp88THJU9thv43MRpPdmLhrv63a+CjtGkytS7136C+y0A1Njewue8IC66aXO+2jARiNrvYBPFuaabHEtjSbcp13aNF78OfSDomFtoDMNImqWudFjFJtcgG/KVTpLbVTFapfVMDbLrki2g2O5/FMAQFluWF0Fj65GF9b3I3gQmVr581k5SJrrRAvfW81hTkw65Oo2ujR7GDU89iyZRLftqMvivvli28bSHtFu7K0uxGr21HdhHf+LL2O7HA0fHgb6cpMd5gBJOihAR+l4X7vuwWT+/81EYeXaOzsd1ZZ+duPeX3ZV1Frteo/bi4CzlxWfqvPP+mMSnGAef4nEJfPnhKswrGmR18lVHTmhTErGKITEUWFqcw73AwExDrHodIhYameNxuBBfbh5r0eFxED3p7sNIKkRTtElp2F9C9q2Q7f8ANWxHpLs3XHULpI4kZpjpPNaNOxHow0DOv7JrD44VmxporDSGoJHMQRrMgYZrjfgnH13NFuKczaQQ2sinSRzIGHvl5rnVbZuSheKLxTGDeekwXocObmLuoWNiPSJmI6laC8RUaXBaZ2L9HZakTuRBiszb8VjrXmM0yZ0niyk0cD6Lp2cbrCxr3ONkmksdaWBCtPTMphohZ4alOPPndMtRPPndNzDz+6IK+f4WPGL4iiH3XQsop+f5c4ar6r+Fe/7TGhfpz3L66cltL32f/E7/ALIj/DNaevO3ibC07lICpF4DaPfPZYCNpC+iNsDffjJ1fPQcHHaPvQqguPtNE4Edoyztw8xbidWt3udIcdIBhMU2RqhNjqwZQPlJd21VhaEbnwmnEiundYqOVoB1NoPedlm+uUu4g6Fo046opelhSDmY3EtTm+6OXnAVWvcnZ592TMH0XSFD8oywRMw0mHuM6tdNmpGJTc4JKgFT4rawieHNe2IDMRZbX4Eybtmm2vHNHxiLkO1mNxnXKAYDrTL2meKrlKK992q95h2oOfjvHdB0bNJUXW1iANbjdAL3udkgbs0HUxGUxPD3a2N4bydLttl0Iy3M+tr/ALOaEr389lZnsdBta6njDB3+s23EaQLcY6b9dacyuyrUG/q/pjg3kzMG/aUQlO/3mh61cub1xCYohaBUkFTSIBlrunkMbiHZtVt0CY960M0TnhjhCyxeh6Qq07Ao1TDh9z1ZFTaO62ZxIzTUD6leJJ6CoHiiFdXE2mc4+IxJnMqb4vWp9kL8Fn1vSFTNZdxMbeaFr3nnqTETo0KkQc4k2TOFxrnaro5pDFIY6atDFvpDXqEw6mKlz1dCWii8a0QwiFfGOLp5K5pwLcVTVYs1YLrByRzCek3NN1m4ii4rQrfvH0vCDcfPriVXd7/7oYGg+M9GzHNcOuH1SPYvCjt/S3s7raxTNz4driSvOGVGnrXLxMWDuOvI8ICtjx7PWn1B9+9T/Dmbq7fPuO37NoS81GvG/Z+Aizy0HEcZM19oXJGh8MU/ii4wePO2u8yOV22myIKYamhhvG3fh3RLc2uScw8HKATbW4C8RBVsmtJbg8Ydr412cJidHBty4GYh1huUEphQ6ODZfB/aKGMp8EtLqplOfMx9X7paV0YXAt6rS5qFj8uYNOsHvTxF4aOAVCVnq5hYLul1KirodCd5WXQpMgJ38pVFsx2lhIeMoMtfU0a4ZmtHAjSdm2EoCjpIVGybk7ry72F2XU6aRRKVG3sI2pcsAjrpwhGgZCaN2jushwcJOrodtHNWCDQLsswzc5bpuGyecZUDF9wIkC3c7HxlH4czkAMSGCzgIF3H2hc/RXlLy6k2/VMtF7HakVNH2IeXRdPmYs2k4d6Nk6H8/wCkIgjrkrA0Pa7X4Y0jf7b7+EADVl2dRmWWr7mGvdOVYZ9M6c/hIPG0g6aIrCEVpQl+riPizLKv/aY2Iwkm/Dw6+h2p2nVA+KZeGpix55y77/IiIwRnTf8ANNiuOuSbFsIV/P75D5/qmxQwzqY63JapUa9ZqlOZ2w03tA0/KL16T3G/D6oPZ0ysQw0006VowiEv94q3CO+aI0U2m3BEgjbxY8/zlkx4YQ9ckUVgAqYxTGMbyOMUT/8AfCI1cA6dFc1wgMkLyBz9cnt3DxcTL08EQZ68Uu6oCop19i5oScPd8UhU/i2vDtWWUzjaN18O0LTXp0ckSPlunbwjkTCCXWQEbu1v8UBk7Qt9Y1l7AsvzlKmrbH1lHYdzoBG4f+b7FQuSTwOyJMwDatoeCyxTOXsDtSVQ+UEWEo2k8DMAdA7Q/pO4XQiVKNgSuUn1ndCp59VcgA7pMSDYHOBAxSJYOST7IyGGnMR3b3IaCw6gxJgeaoShV1pnKbm/ykqrUvsWy8LQ3rBlzKuo+cClXqW3SoLBFME5NW5Gmw3E3n7IZKXig2gXcPDGCqypci5mUI9+MfiqzCwA+kOyuR2tc9ozYBqBNrDggIsJVBuStrSsIaZYEA3l06pyEkfSTC1b32bbMJTe3PQYXAm7rsvOoNtDZTKHDZM9wWvJhyuY6nvSYeqcw2ZEZs3Z70XovblpuAHrnRjtvjbnoryroFdobUKkLpop05mQFw3ACUDlbV9/CUaAGgOEDvMMhogG49YkwrynZjo9lHillh4mYN+qsTSABy5Sb8YV+5UYDkBGO0c5snffcHAQQSYEOHA30Vw5MzcOyw3Ze0Vkv8OfOKU8N1txMHPrbveI7ok/MSCOQ57ufEQ1w1KJ2oAT+s/V/wCcsP8A45f4pmDbX4ufCWD8Ob8DIYPp9uY4wG65iu7YrYH+XFhuY+GXm/yy8F9kzBuPdG7Lxl5uF1ufFstaNgdb9lpvc2GtsztoU9qnF/q3u7MHP9Tzii+82OmnOB1mo3/KJVc0+75xt3mVcVVp6z85Yf8AOxmPrNOO/lGXNyNrdeVpl7tOpnzC41vJag300Pd2Zefly2bd5fCWmXPoCco4HNtQvw7R7wPZX2TSZGzq1uN+R7w26Khqoyw/R/D3W/E0Evtfi/8Aj/Siy/zG9F4wGbT8Pg4wL3DZs8vlG0at/Kq9qVoDb7acy3Z/Rl5gPwgbh3WmYtprqnh4wlbj8kMoNY8fDf8Ap8ZcdQuFZP3asup2Rk4LCJ3Ir3tvzRC1ANtrox3Du+2FmZVuRmJ5eGMNdbhqd8a3iDmebwWmBZdnTALvfItgNCsTSIsxKEQXZVW2qltfZLa4UAMLna1gnOBMmCQC4xlPedYC4B0jn4KC9CmXqz2rZvjK2Oq71s3xjKhcINxMpnYU+zrfdlleza2WlulOPU8dhjXZ8VQuQgoae5iA0PDVQUICbtbGVRrNkOz8LS8FWckgrbTlDUXAVKWzM2LU+Y1MwFEocHiWJtlsPUIirRqX3n5yzVqZtx3x2LoOWvtbpVjHYmjkJqEtOvq6+VlQmyyYeob7z85sqsbypJqYL/iDmPkg7U5DsSqRkkml7bOQUJIY33zJXqG+8/OSSYWO/AP6kUaosb2h7I99492SSYh/Er82/MK4TsZuEXU7skk1cf8AjO5M/wAlA0S+kNwkxH3YkklcT+Nif6YVDqoPu4WG7IlyQX/az+l5q21VU0ZLaeya+8fjJJGqOjv1N/wCsucw+z+MbmOYa8P4ZJJl0fZ/+f8Asp2pIc5Tqd80Dtr7JJJZujf7f8lAV4QaN7ZeOOi+9JJHaf8Awz+n/dQUxe1fjprxmah94ZJJSp69L+p5LkKfe/GFiPvB54SSRQfgu/reYUFPc3366nfrFVT9r8ZJJo4n8f8AvZ5qXJ+PEw9IduSSK+mtKvNv+ykpmP3j3ZdWocqan5ySQtH8evyb8mqFooOerbU/OFhGN98kk16f/VyC5Y69Vr9o/MzcGNhrJJJofiu8fmqr/9k=", 
         desc: "This involves the study of electromagnetic fields and their properties. Topics covered in electromagnetism include Maxwell's equations, wave propagation, and electromagnetic radiation.",
-        link: "electromagnetism" 
+        link: "electromagnetics" 
 
     }, 
     {
@@ -102,49 +102,49 @@ export const eeecourses = [
 export const bcecourses = [
     {
         name: "Process Design and Analysis", 
-        img: "data:image/png;base64,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", 
+        img: "/img/processdesign.png", 
         desc: "This involves the study of how to design chemical processes that are efficient, safe, and environmentally friendly. This includes the use of computer simulation tools to model and optimize chemical processes.",
         link: "processdesignandanalysis" 
 
     }, 
     {
         name: "Thermodynamics", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/thermo.png", 
         desc: "This involves the study of the physical properties of materials and their behavior under different conditions of temperature and pressure. Thermodynamics is important in the design and operation of chemical processes.",
         link: "thermodynamics" 
 
     }, 
     {
         name: "Transport Phenomena", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/transport.png", 
         desc: "This involves the study of the movement of materials and energy in chemical processes. Transport phenomena include fluid mechanics, heat transfer, and mass transfer.",
         link: "transportphenomena" 
 
     }, 
     {
         name: "Reaction Engineering", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/reaction.png", 
         desc: " This involves the study of how chemical reactions occur and how they can be optimized to achieve desired outcomes. Reaction engineering is important in the design and operation of chemical reactors.",
         link: "reactionengineering" 
 
     }, 
     {
         name: "Materials Science", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/material.png", 
         desc: "This involves the study of the properties and behavior of materials, including their structure, composition, and properties. Materials science is important in the development of new materials for use in chemical processes.",
         link: "materialsscience" 
 
     }, 
     {
         name: "Process Control", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/process.png", 
         desc: "This involves the study of how to control chemical processes to achieve desired outcomes. Process control includes the use of feedback control systems, sensors, and other tools to monitor and adjust chemical processes.",
         link: "processcontrol" 
 
     }, 
     {
         name: "Environmental Engineering", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/environmental.png", 
         desc: "This involves the study of how to design and operate chemical processes that are environmentally friendly and sustainable. Environmental engineering includes the study of pollution prevention, waste management, and green chemistry.", 
         link: "environmentalengineering"
 
@@ -154,49 +154,49 @@ export const bcecourses = [
 export const csecourses = [
     {
         name: "Programming and Algorithms", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/programming.png", 
         desc: "This involves the study of programming languages, data structures, algorithms, and software development methodologies. It includes the development of computer programs for various applications such as web development, mobile applications, and software systems.", 
         link: "programming"
 
     }, 
     {
         name: "Computer Organization and Architecture:", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/computer.png", 
         desc: "This involves the study of computer hardware components such as processors, memory, and input/output devices. It includes the design and analysis of computer systems and architectures for various applications such as embedded systems, supercomputing, and cloud computing.",
         link: "computerorganization" 
 
     }, 
     {
         name: "Operating Systems", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/os.png", 
         desc: "This involves the study of operating systems and their components such as process management, memory management, and file systems. It includes the design and development of operating systems for various applications such as real-time systems, distributed systems, and mobile devices.",
         link: "os" 
 
     }, 
     {
         name: "Networks and Security", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/network.png", 
         desc: "This involves the study of computer networks and their components such as protocols, routing, and network security. It includes the design and development of network systems for various applications such as data communication, wireless networks, and internet security.",
         link: "networksandsecurity" 
 
     }, 
     {
         name: "Artificial Intelligence and Machine Learning", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/Ai.png", 
         desc: "This involves the study of artificial intelligence and machine learning techniques and their applications. It includes the development of intelligent systems and applications for various applications such as computer vision, natural language processing, and robotics.",
         link: "aiandml" 
 
     }, 
     {
         name: "Databases and Data Mining", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/datamining.png", 
         desc: "This involves the study of databases and data mining techniques and their applications. It includes the design and development of database systems for various applications such as e-commerce, social networking, and business intelligence.",
         link: "dbdm" 
 
     }, 
     {
         name: "Software Engineering", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/software.png", 
         desc: " This involves the study of software engineering principles and practices such as software development lifecycle, software testing, and software project management. It includes the design and development of software systems for various applications such as enterprise systems, e-learning systems, and gaming.",
         link: "software" 
 
@@ -207,51 +207,51 @@ export const csecourses = [
 export const cecourses = [
     {
         name: "Structural Engineering", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/structural.png", 
         desc: "This involves the study of the design, analysis, and construction of structures such as buildings, bridges, and dams. Structural engineers use principles of mechanics and materials science to ensure that structures are safe and can withstand the loads they will experience.", 
         link: "se"
 
     }, 
     {
         name: "Geotechnical Engineering", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/ge.png", 
         desc: "This involves the study of the behavior of soil and rock, and its interaction with structures. Geotechnical engineers design foundations for buildings, slopes for roads, and tunnels through mountains.", 
         link: "ge"
 
     }, 
     {
         name: "Transportation Engineering", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/transportation.png", 
         desc: "This involves the study of the design and operation of transportation systems such as roads, railways, and airports. Transportation engineers use principles of traffic flow, safety, and sustainability to design transportation systems that meet the needs of society.",
         link: "te" 
 
     }, 
     {
         name: "Water Resources Engineering", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/water.png", 
         desc: "This involves the study of the management of water resources such as rivers, lakes, and groundwater. Water resources engineers design and operate systems to control flooding, provide drinking water, and treat wastewater.", 
         link: "wre"
 
     }, 
     {
         name: "Environmental Engineering", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/environmental.png", 
         desc: "This involves the study of the impact of human activities on the natural environment, and the design of systems to protect the environment. Environmental engineers design and operate systems to manage solid and hazardous waste, and to control air and water pollution.", 
-        link: "ee"
+        link: "environmentalengineering"
 
     }, 
     {
         name: "Construction Engineering and Management", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/construction.png", 
         desc: "This involves the study of the management of construction projects, from design to completion. Construction engineers and managers plan and coordinate the activities of architects, engineers, contractors, and laborers to ensure that projects are completed on time, within budget, and to the desired quality.", 
         link: "cem"
 
     }, 
     {
         name: "Materials Science and Engineering", 
-        img: "https://www.bits-pilani.ac.in/Uploads/Pilani/electricalelectronics/MicroModule/2013-3-23--19-55-15-754_Final-28-Pad-Frame-Diagram-with-Complete-1Chip.jpg", 
+        img: "/img/material.png", 
         desc: "This involves the study of the properties and behavior of materials such as concrete, steel, and asphalt. Materials engineers work to improve the performance and durability of these materials in the built environment.",
-        link: "materialscience" 
+        link: "materialsscience" 
 
     }, 
 ]

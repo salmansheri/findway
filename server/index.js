@@ -3,6 +3,7 @@ import cors from "cors";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import User from './routes/user.routes.js'; 
+import department from "./routes/department.js";
 dotenv.config();
 
 const app = express();
@@ -25,5 +26,8 @@ app.get("/", (req, res) => {
 })
 
 app.use("/api/v1/users", User); 
+app.use("/api/v1/department", department); 
 
-app.listen(port, () => console.log(`Server is listening in the port ${port}`));
+
+
+app.listen(port, () => console.log(`Server listening at port http://localhost:${port}`));

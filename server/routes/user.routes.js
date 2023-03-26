@@ -12,13 +12,13 @@ router.route("/login").post(async (req, res) => {
         const User = await userModel.findOne({email: email});
         if(User) {
             if(User.password=== password) {
-                res.status(200).json({message: "success"}); 
+                res.status(200).json(User); 
                 console.log("success")
 
 
             }
         } else {
-            res.status(404).json({message: "User not found!"})
+            res.status(200).json({message: "User not found!"})
         }
     
         
@@ -50,6 +50,47 @@ router.route("/register").post(async (req, res) => {
         console.log(err)
     }
 }); 
+
+router.route("/").get(async (req, res) => {
+    try {
+        const users = await userModel.find({}); 
+        res.status(200).json(users)
+
+    } catch(err) {
+        res.status(500).json({message: err})
+        console.log(err); 
+    }
+})
+
+router.route("/:id").get(async (req, res) => {
+    try {
+        const {id} = req.params; 
+        const user = await userModel.findById({_id: id}); 
+        
+        if(user) {
+            res.status(200).json(user)
+        } else {
+            res.status(200).json({message: "user not found"})
+        }
+
+    } catch(err) {
+        res.status(500).json({message: err})
+        console.log(err)
+    }
+})
+
+router.route("/:id").delete(async (req, res) => {
+    try {
+        const {id} = req.params; 
+        const user = await userModel.findByIdAndDelete({_id: id}); 
+        res.status(204).json(`User with id:  ${id} deleted successfully`)
+        console.log("deleted successfully")
+
+    } catch(err) {
+        res.status(500).json({message: err})
+        console.log(err)
+    }
+})
 
 export default router; 
 

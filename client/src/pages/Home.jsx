@@ -5,13 +5,11 @@ import axios from "axios";
 import Search from "../components/Search";
 import { useSelector } from "react-redux";
 
-
 const Home = () => {
- 
   const [departments, setDepartments] = useState([]);
   const [searchItem, setSearchItem] = useState("");
   const user = useSelector((state) => state.user);
- 
+
   useEffect(() => {
     const fetchdep = async () => {
       const response = await axios.get(

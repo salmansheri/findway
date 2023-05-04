@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import Navbar from '../components/Navbar';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
+
 
 const Admin = () => {
     const [departments, setDepartments] = useState([]); 
@@ -28,7 +30,7 @@ const Admin = () => {
 
     const handleDelete = async (id) => {
         alert("Do you Want to delete the department")
-        const response = await axios.delete(`http://localhost:5000/api/v1/departments/${id}`)
+        const response = await axios.delete(`http://localhost:5000/api/v1/department/${id}`)
         setDepartments(departments.filter(department => department._id !== id))
 
 

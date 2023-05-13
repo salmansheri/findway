@@ -1,5 +1,6 @@
 import express from "express";
 import departmentModel from "../models/departmentModel.js";
+import { data } from "../data/data.js";
 
 const router = express.Router();
 
@@ -40,6 +41,19 @@ router.route("/").post(async (req, res) => {
     console.log(`Error: ${err}`);
   }
 });
+
+router.route("/createMany").post(async (req, res) => {
+  try {
+    const departments = await departmentModel.insertMany(data); 
+
+    res.status(200).json(departments)
+
+  } catch(error) {
+    console.log(error)
+    res.status(500).json({message: error.message}); 
+  }
+  
+})
 
 router.route("/:id").delete(async (req, res) => {
   try {

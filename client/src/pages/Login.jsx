@@ -25,8 +25,10 @@ const Login = () => {
     });
     const data = await res.data;
     setEmail(data.email);
+    console.log(res.status)
 
-    if (data) {
+    if (res.status === 200) {
+      localStorage.setItem("email", data.email)
       dispatch(LoggedUser({ email: email }));
       navigate("/");
     }

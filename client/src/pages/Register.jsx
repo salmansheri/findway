@@ -1,7 +1,9 @@
 import React, {useState} from 'react'; 
 import axios from 'axios'
+import { useNavigate } from 'react-router-dom'; 
 
 const Register = () => {
+    const navigate = useNavigate();
     const [registerData, setRegisterData] = useState({
         username: "", 
         email: "",
@@ -11,6 +13,7 @@ const Register = () => {
     })
     const handleSubmit = (e) => {
         e.preventDefault();
+        try {
         const postData = async () => {
             const data = await axios.post("http://localhost:5000/api/v1/users/register", {
                 username: registerData.username, 
@@ -20,12 +23,14 @@ const Register = () => {
 
             }); 
 
-            return data;
+           
         }
+        postData().then(() => {
+            alert("created Successfully")
+            navigate("/login")
+        })
 
-        try {
-            postData(); 
-            alert("create successfully"); 
+            
         } catch(err) {
             alert("something went wrong")
         }

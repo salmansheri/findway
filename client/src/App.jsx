@@ -17,7 +17,9 @@ import { useSelector } from "react-redux";
 const App = () => {
   const user = useSelector((state) => state.user);
   const admin = useSelector((state) => state.admin);
-  const { email } = user;
+ 
+  const email = localStorage.getItem('email'); 
+  console.log(email)
   return (
     <BrowserRouter>
       <Routes>

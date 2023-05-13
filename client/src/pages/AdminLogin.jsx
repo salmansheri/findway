@@ -24,6 +24,7 @@ const AdminLogin = () => {
     const data = response.data;
     console.log(data);
     if (data.isAdmin === true) {
+      localStorage.setItem('admin', true); 
       dispatch(loggedAdmin({ email: adminData.email, isAdmin: data.isAdmin }));
       navigate("/admin");
     } else {

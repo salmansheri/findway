@@ -46,7 +46,7 @@ const Admin = () => {
             <Navbar isAdmin={true} />
             <h1 className="mx-10 my-10 font-bold uppercase">Admin: {admin.email}</h1>
             <div className="flex items-center justify-center h-screen">
-            <div className="bg-white  rounded-md shadow-md shadow-red-200 flex justify-center w-[50rem] overflow-hidden -mt-[500px]">
+            <div className="bg-white  rounded-md shadow-md shadow-red-200 flex justify-center w-[90%] overflow-auto -mt-[500px]">
                 <table className="w-full text-center">
                     <thead className="bg-red-100 rounded-t-lg mb-3">
                     <tr>

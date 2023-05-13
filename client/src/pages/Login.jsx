@@ -19,14 +19,13 @@ const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await axios.post("http://localhost:5000/api/v1/users/login", {
+    const res = await axios.post("https://findway.onrender.com/api/v1/users/login", {
       email: loginData.email,
       password: loginData.password,
     });
     const data = await res.data;
     setEmail(data.email);
-    console.log(res.status)
-
+   
     if (res.status === 200) {
       localStorage.setItem("email", data.email)
       dispatch(LoggedUser({ email: email }));

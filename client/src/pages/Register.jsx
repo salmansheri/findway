@@ -15,7 +15,7 @@ const Register = () => {
         e.preventDefault();
         try {
         const postData = async () => {
-            const data = await axios.post("http://localhost:5000/api/v1/users/register", {
+            const data = await axios.post("https://findway.onrender.com/api/v1/users/register", {
                 username: registerData.username, 
                 email: registerData.email, 
                 password: registerData.password, 

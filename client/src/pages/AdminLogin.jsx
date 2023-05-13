@@ -15,7 +15,7 @@ const AdminLogin = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const response = await axios.post(
-      "http://localhost:5000/api/v1/users/login",
+      "https://findway.onrender.com/api/v1/users/login",
       {
         email: adminData.email,
         password: adminData.password,

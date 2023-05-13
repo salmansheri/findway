@@ -13,7 +13,7 @@ const Home = () => {
   useEffect(() => {
     const fetchdep = async () => {
       const response = await axios.get(
-        "http://localhost:5000/api/v1/department"
+        "https://findway.onrender.com/api/v1/department"
       );
 
       const data = response.data;

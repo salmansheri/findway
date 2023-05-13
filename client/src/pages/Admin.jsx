@@ -13,7 +13,7 @@ const Admin = () => {
 
 
     const fetchDep = async () => {
-        const response = await fetch("http://localhost:5000/api/v1/department", {
+        const response = await fetch("https://findway.onrender.com/api/v1/department", {
             method: "GET", 
             headers: {
                 "Content-Type":"application/json"
@@ -30,7 +30,7 @@ const Admin = () => {
 
     const handleDelete = async (id) => {
         alert("Do you Want to delete the department")
-        const response = await axios.delete(`http://localhost:5000/api/v1/department/${id}`)
+        const response = await axios.delete(`https://findway.onrender.com/api/v1/department/${id}`)
         setDepartments(departments.filter(department => department._id !== id))
 
 

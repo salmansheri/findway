@@ -11,7 +11,7 @@ const Videopage = () => {
   const index= pathname.split("/")[3]; 
 
   const fetchVideo = async () => {
-    const response = await axios.get(`http://localhost:5000/api/v1/department/${id}`)
+    const response = await axios.get(`https://findway.onrender.com/api/v1/department/${id}`)
 
     const data = response.data 
    

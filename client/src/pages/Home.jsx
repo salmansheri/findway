@@ -44,6 +44,7 @@ const Home = () => {
                 {department.title}
               </li>
               <p className="m-10">{department.desc}</p>
+              <div className="flex flex-row gap-3">
 
               <Link
                 className="text-red-700 hover:underline text-lg font-bold"
@@ -51,6 +52,10 @@ const Home = () => {
               >
                 Explore
               </Link>
+                <a className="text-red-700 hover:underline text-lg font-extrabold" href="https://www.youtube.com/@ELECTRONOOBS">Practical</a>
+              </div>
+
+
             </div>
           ))}
       </div>

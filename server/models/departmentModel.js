@@ -11,6 +11,7 @@ const departmentSchema = new mongoose.Schema({
         type: String, 
         required: true, 
     }, 
+   
     courses: {
         type:[{title: {type: String, required: true}, desc: {type: String}, url: {type: String}, img: {type: String}}], 
         required: true,

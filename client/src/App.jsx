@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {
@@ -17,9 +17,15 @@ import { useSelector } from "react-redux";
 const App = () => {
   const user = useSelector((state) => state.user);
   const admin = useSelector((state) => state.admin);
+  const [email, setEmail] = useState(null); 
+
+  useEffect(() => {
+
+    const email = localStorage.getItem('email'); 
+    setEmail(email)
+  }, [])
  
-  const email = localStorage.getItem('email'); 
-  console.log(email)
+  
   return (
     <BrowserRouter>
       <Routes>

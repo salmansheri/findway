@@ -6,9 +6,8 @@ import { reset } from "../redux/userSlice";
 
 const Navbar = ({isAdmin}) => {
   const navigate = useNavigate(); 
-  const dispatch = useDispatch(); 
-  const user = useSelector(state => state.user); 
-  console.log(user)
+ 
+  
   const handleLogout = () => {
     localStorage.removeItem('email')
     navigate("/login")
@@ -27,12 +26,12 @@ const Navbar = ({isAdmin}) => {
       {!email && !admin ? (
 
       <div className="flex gap-10">
-        <a className="text-white hover:font-bold" href="/login">
+        <Link className="text-white hover:font-bold" to="/login">
           Login
-        </a>
-        <a className="text-white hover:font-bold" href="/register">
+        </Link>
+        <Link className="text-white hover:font-bold" to="/register">
           Register
-        </a>
+        </Link>
       </div>
       ): (
 

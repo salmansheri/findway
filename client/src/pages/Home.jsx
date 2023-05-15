@@ -52,7 +52,7 @@ const Home = () => {
               >
                 Explore
               </Link>
-                <a className="text-red-700 hover:underline text-lg font-extrabold" href="https://www.youtube.com/@ELECTRONOOBS">Practical</a>
+                <a className="text-red-700 hover:underline text-lg font-extrabold" target="_defer" href={department?.href}>Practical</a>
               </div>
 
 

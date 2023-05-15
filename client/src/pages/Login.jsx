@@ -10,30 +10,38 @@ const Login = () => {
     password: "",
   });
 
-  const [email, setEmail] = useState("");
-
   const dispatch = useDispatch();
   const name = useSelector((state) => state.name);
 
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    const res = await axios.post("https://findway.onrender.com/api/v1/users/login", {
-      email: loginData.email,
-      password: loginData.password,
-    });
-    const data = await res.data;
-    setEmail(data.email);
+    e.preventDefault(); 
+    try {
+      const res = await axios.post(
+        "https://findway.onrender.com/api/v1/users/login",
+        {
+          email: loginData.email,
+          password: loginData.password,
+        }
+      );
+      const data = res.data;
+      console.log(data)
+      navigate("/")
+
+      if(res.status === 200) {
+
+        localStorage.setItem("email", data.email);
+      }
+  
+
+    } catch(error) {
+      console.log(error); 
+
+    }
+  
+
    
-    if (res.status === 200) {
-      localStorage.setItem("email", data.email)
-      dispatch(LoggedUser({ email: email }));
-      navigate("/");
-    }
-    if (data.message) {
-      alert(data.message);
-    }
   };
   return (
     <>
